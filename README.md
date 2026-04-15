@@ -4,7 +4,7 @@ O objetivo deste repositório é simular problemas reais de código e treinar a 
 
 ---
 
-# 🎯 Objetivo
+# Objetivo
 
 - Melhorar lógica de programação
 - Identificar bugs rapidamente
@@ -12,7 +12,7 @@ O objetivo deste repositório é simular problemas reais de código e treinar a 
 
 ---
 
-# 🧠 Como funciona
+# Como funciona
 
 Todos os dias é criado um pequeno desafio com código propositalmente bugado.
 
@@ -26,7 +26,7 @@ O processo é:
 
 ---
 
-# 🚀 Tecnologias usadas
+# Tecnologias usadas
 
 - PHP;
 - Laravel;
