@@ -1,6 +1,6 @@
 # PHP Debugging Studies
 
-O objetivo deste repositório é simular problemas reais de código e treinar a habilidade de identificar, corrigir e entender bugs.
+O objetivo deste repositório é simular problemas reais de código e treinar as habilidades de identificar, corrigir e entender bugs.
 
 ---
 
