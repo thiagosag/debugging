@@ -1,4 +1,4 @@
-# PHP Debugging Studies
+ # PHP Debugging Studies
 
 O objetivo deste repositório é simular problemas reais de código e treinar as habilidades de identificar, corrigir e entender bugs.
 
@@ -28,11 +28,11 @@ O processo é:
 
 # Tecnologias usadas
 
-- PHP;
-- Laravel;
-- JS;
-- HTML;
-- CSS;
-- Sessões (PHP Session);
-- Lógica de backend;
+- PHP
+- Laravel
+- JS
+- HTML
+- CSS
+- Sessões (PHP Session)
+- Lógica de backend
 
