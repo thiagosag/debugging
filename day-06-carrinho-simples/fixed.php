@@ -1,0 +1,91 @@
+<?php
+	session_start();
+
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+	error_reporting(E_ALL);
+
+	if (!isset($_SESSION['cart'])) {
+		$_SESSION['cart'] = [];
+		
+	}
+
+	$products = [
+		1 => ["name" => "Camiseta", "price" => 50],
+		2 => ["name" => "Calça", "price" => 120],
+		3 => ["name" => "Tênis", "price" => 200]
+	];
+	
+	$cart = array();
+	$cart = $_SESSION['cart'];
+
+	// adicionar produto
+	if (isset($_GET['add'])) {
+		$id = $_GET['add'];
+
+      if (!isset($cart[$id])) {
+      $cart[$id] = [
+        "name" => $products[$id]['name'],
+        "price" => $products[$id]['price'],
+        "qty" => 1
+         ];
+      } else {
+          $cart[$id]['qty']++;
+      }
+      header('Location: fixed.php');
+	   exit;
+     }
+   
+ 
+	// remover produto
+	if (isset($_GET['remove'])) {
+		unset($cart[$_GET['remove']]);
+      header('Location: fixed.php');
+	   exit;
+	}
+
+	// calcular total
+	$total = 0;
+	
+	if(!empty($cart)){
+	foreach ($cart as $item) {
+		$total += $item['price'] * $item['qty'];
+		}
+	}
+
+	$_SESSION['cart'] = $cart;
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carrinho</title>
+</head>
+<body>
+
+<h1>Produtos</h1>
+
+<ul>
+	<?php foreach ($products as $id => $p): ?>
+		<li>
+			<?php echo $p['name'] ?> - R$ <?php echo $p['price'] ?>
+			<a href="?add=<?php echo $id ?>">Adicionar</a>
+		</li>
+	<?php endforeach; ?>
+</ul>
+
+<h2>Carrinho</h2>
+
+<ul>
+	<?php foreach ($cart as $id => $item): ?>
+		<li>
+			<?php echo $item['name'] ?> (<?php echo $item['qty'] ?>)
+			<a href="?remove=<?php echo $id ?>">Remover</a>
+		</li>
+	<?php endforeach; ?>
+</ul>
+
+<p>Total: R$ <?php echo $total ?></p>
+
+</body>
+</html>
