@@ -1,4 +1,4 @@
-# Task Manager - Bug Fix Evolution
+## Correção de erros
 
 Este projeto começou como um sistema de lista de tarefas propositalmente quebrado, com múltiplos erros de lógica, estrutura e integração entre PHP, HTML, CSS e JavaScript.
 
