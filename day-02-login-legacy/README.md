@@ -1,4 +1,4 @@
-# Evolução - Sistema de Login em PHP
+## Correção de erros
 
 A versão anterior apresentava falhas importantes, como reset indevido de sessão, acesso inseguro ao array de usuários e problemas no fluxo de autenticação. Esses erros podiam gerar comportamento inconsistente, warnings e falhas em cenários simples, além de comprometer a confiabilidade do sistema.
 
