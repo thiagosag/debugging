@@ -1,4 +1,4 @@
-# Sistema de Login em PHP
+## Correção de erros
 
 A versão inicial do sistema de login possuía diversos bugs de lógica e sintaxe, como uso incorreto de operadores de atribuição em condições, falhas na validação do método HTTP e problemas na verificação de sessão. Esses erros faziam com que o fluxo de autenticação não funcionasse corretamente e gerassem comportamentos inesperados.
 
