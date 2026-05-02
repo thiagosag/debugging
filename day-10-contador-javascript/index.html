@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <title>Contador de cliques</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="text-center m-3">
+                <h2>Contador de cliques</h2>
+                <div>
+                    <h3>Número: </h3>
+                    <h2 id="showNumber"></h2>
+
+                    <script>
+                        let numero = 0;
+                        document.getElementById('showNumber').innerHTML = numero;
+                        let corNumero = document.getElementById('showNumber');
+
+                        function verificaCor(){
+                            if(numero > 0){
+                                corNumero.style.color = 'green'; 
+                            } else if (numero < 0 ){
+                                corNumero.style.color = 'red';
+                            } else {
+                                corNumero.style.color = 'black';
+                            }
+                        }
+
+                        function soma(){
+                            numero++;
+                            document.getElementById('showNumber').innerHTML = numero;
+                            verificaCor();
+                        }
+
+                        function diminuir(){
+                            numero--;
+                            document.getElementById('showNumber').innerHTML = numero;
+                            verificaCor();
+                        }
+
+                        function dividir(){
+                            if(numero != 0){
+                                numero = numero / 2;
+                                document.getElementById('showNumber').innerHTML = numero;
+                            };
+                            verificaCor();
+                        }
+
+                        function multiplicar(){
+                            numero = numero * 2;
+                            document.getElementById('showNumber').innerHTML = numero;
+                            verificaCor();
+                        }
+
+                        function resetar(){
+                            numero = 0;
+                            document.getElementById('showNumber').innerHTML = numero;
+                            verificaCor();
+                        }
+
+                    </script>
+                </div>
+                <div style="margin: 3px;">
+                    <button class="btn btn-success m-1" onclick="soma()">Somar</button>
+                    <button class="btn btn-danger m-1" onclick="diminuir()">Diminuir</button>
+                    <button class="btn btn-warning m-1" onclick="dividir()">Dividir</button>
+                    <button class="btn btn-dark m-1" onclick="multiplicar()">Multiplicar por 2</button>
+                    <button class="btn btn-info m-1" onclick="resetar()">Resetar</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 
