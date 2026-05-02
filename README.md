@@ -14,7 +14,7 @@ O objetivo deste repositório é simular problemas reais de código e treinar as
 
 # Como funciona
 
-Todos os dias é criado um pequeno desafio com código propositalmente bugado.
+Alguns dias é criado um pequeno desafio com código propositalmente bugado.
 
 O processo é:
 
