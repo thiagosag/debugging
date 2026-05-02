@@ -1,6 +1,6 @@
  # PHP Debugging Studies
 
-O objetivo deste repositório é simular problemas reais de código e treinar as habilidades de identificar, corrigir e entender bugs.
+O objetivo deste repositório é (i) simular problemas reais de código e treinar as habilidades de identificar, corrigir e entender bugs; (ii) promover desenvolvimento de projetos simples a fins de prática e estudo.
 
 ---
 
@@ -8,7 +8,7 @@ O objetivo deste repositório é simular problemas reais de código e treinar as
 
 - Melhorar lógica de programação
 - Identificar bugs rapidamente
-- Criar disciplina de estudo diário
+- Aplicar conhecimento de em programas simples
 
 ---
 
@@ -24,15 +24,21 @@ O processo é:
 4. Testar funcionamento
 5. Documentar a solução
 
+Ou, caso seja a criação de algum mini-projeto:
+
+1. Receber a proposta de projeto
+2. Desenvover
+3. Apresentar
+
+
 ---
 
 # Tecnologias usadas
 
 - PHP
 - Laravel
-- JS
+- JavaScript
 - HTML
 - CSS
-- Sessões (PHP Session)
 - Lógica de backend
 
