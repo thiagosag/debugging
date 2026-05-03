@@ -1,44 +1,35 @@
- # PHP Debugging Studies
+<p align="center">
+  <img src="https://i.postimg.cc/N93NWzH1/Thiago-Logo-2.png" alt="Thiago Logo" border="0" width="200"/>
+</p>
 
-O objetivo deste repositório é (i) simular problemas reais de código e treinar as habilidades de identificar, corrigir e entender bugs; (ii) promover desenvolvimento de projetos simples a fins de prática e estudo.
+# Estudos de Depuração
 
----
+O objetivo deste repositório é armazenar de forma organizada exercícios de depuração de código em diferentes linguagens.
 
-# Objetivo
-
-- Melhorar lógica de programação
-- Identificar bugs rapidamente
-- Aplicar conhecimento de em programas simples
+Os desafios são organizados por dias (Day 1, Day 2, etc.), com foco em prática de identificação e correção de erros, além do aprimoramento da lógica de programação.
 
 ---
 
-# Como funciona
+## Abordagem de Depuração
 
-Alguns dias é criado um pequeno desafio com código propositalmente bugado.
+Os exercícios de depuração neste repositório seguem uma abordagem estruturada inspirada nos princípios da depuração científica, conforme descrito na literatura de engenharia de software.
 
-O processo é:
+O processo geralmente inclui:
 
-1. Receber um código com erros
-2. Identificar os bugs
-3. Corrigir o código
-4. Testar funcionamento
-5. Documentar a solução
+- Reproduzir o erro.
+- Isolar o comportamento defeituoso.
+- Formular hipóteses sobre a causa.
+- Testar e validar as correções.
+- Confirmar a solução.
 
-Ou, caso seja a criação de algum mini-projeto:
+Esta abordagem é inspirada em métodos sistemáticos de depuração discutidos na engenharia de software acadêmica, incluindo o trabalho de Andreas Zeller sobre localização de falhas e depuração científica.
 
-1. Receber a proposta de projeto
-2. Desenvover
-3. Apresentar
+## Objetivo
 
+- Aprimorar lógica de programação;
+- Identificar bugs rapidamente;
+- Depurar códigos de forma ágil e documentada.
 
----
+## Tecnologias usadas
 
-# Tecnologias usadas
-
-- PHP
-- Laravel
-- JavaScript
-- HTML
-- CSS
-- Lógica de backend
-
+PHP, Laravel, Slim, JavaScript, CSS, HTML, Bootstrap, Node.js.
