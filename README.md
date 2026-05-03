@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://i.postimg.cc/N93NWzH1/Thiago-Logo-2.png" alt="Thiago Logo" border="0" width="200"/>
-</p>
-
 # Estudos de Depuração
 
 O objetivo deste repositório é armazenar de forma organizada exercícios de depuração de código em diferentes linguagens.
