@@ -28,4 +28,4 @@ Esta abordagem é inspirada em métodos sistemáticos de depuração discutidos 
 
 ## Tecnologias usadas
 
-PHP, Laravel, Slim, JavaScript, CSS, HTML, Bootstrap, Node.js.
+PHP, Laravel, Slim, JavaScript, CSS, HTML, Bootstrap, Vue.js.
