@@ -1,31 +1,11 @@
-# Estudos de Depuração
+# Estudos de Depuração (Descontinuado)
 
-O objetivo deste repositório é armazenar de forma organizada exercícios de depuração de código em diferentes linguagens.
+Este repositório foi criado com a ideia de praticar depuração de código de forma recorrente, organizando exercícios por dias e focando na identificação e correção de erros em diferentes linguagens.
 
-Os desafios são organizados por dias (Day 1, Day 2, etc.), com foco em prática de identificação e correção de erros, além do aprimoramento da lógica de programação.
+Com o tempo, percebi que esse formato não estava tão alinhado com a forma como problemas reais aparecem no dia a dia. A prática acabou ficando muito baseada em cenários artificiais, sem contexto de aplicação, arquitetura ou continuidade.
 
----
+Por conta disso, decidi mudar a abordagem de estudo.
 
-## Abordagem de Depuração
+Em vez de trabalhar com exercícios isolados, passei a focar em análise de código real, seja de projetos próprios ou open source, incluindo leitura, revisão, identificação de problemas, sugestões de melhoria e possíveis refatorações.
 
-Os exercícios de depuração neste repositório seguem uma abordagem estruturada inspirada nos princípios da depuração científica, conforme descrito na literatura de engenharia de software.
-
-O processo geralmente inclui:
-
-- Reproduzir o erro.
-- Isolar o comportamento defeituoso.
-- Formular hipóteses sobre a causa.
-- Testar e validar as correções.
-- Confirmar a solução.
-
-Esta abordagem é inspirada em métodos sistemáticos de depuração discutidos na engenharia de software acadêmica, incluindo o trabalho de Andreas Zeller sobre localização de falhas e depuração científica.
-
-## Objetivo
-
-- Aprimorar lógica de programação;
-- Identificar bugs rapidamente;
-- Depurar códigos de forma ágil e documentada.
-
-## Tecnologias usadas
-
-PHP, Laravel, Slim, JavaScript, CSS, HTML, Bootstrap, Vue.js.
+Esse novo modelo está sendo desenvolvido em um repositório separado. Este repositório permanece como registro dessa fase inicial, mas não receberá novas atualizações.
