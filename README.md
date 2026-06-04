@@ -1,11 +1,11 @@
-# Estudos de Depuração (Descontinuado)
+# Estudos de Depuração
 
-Este repositório foi criado com a ideia de praticar depuração de código de forma recorrente, organizando exercícios por dias e focando na identificação e correção de erros em diferentes linguagens.
+Este repositório foi criado com o objetivo de praticar depuração de código ao longo de 10 dias consecutivos, com exercícios simples focados na identificação e correção de erros.
 
-Com o tempo, percebi que esse formato não estava tão alinhado com a forma como problemas reais aparecem no dia a dia. A prática acabou ficando muito baseada em cenários artificiais, sem contexto de aplicação, arquitetura ou continuidade.
+A proposta era trabalhar com pequenos trechos de código em diferentes linguagens, priorizando a prática rápida de leitura, análise e resolução de bugs.
 
-Por conta disso, decidi mudar a abordagem de estudo.
+Ao longo do processo, optei por seguir uma abordagem diferente de estudo, mais voltada para análise de código real, revisão técnica e entendimento de aplicações completas.
 
-Em vez de trabalhar com exercícios isolados, passei a focar em análise de código real, seja de projetos próprios ou open source, incluindo leitura, revisão, identificação de problemas, sugestões de melhoria e possíveis refatorações.
+Por esse motivo, este repositório representa apenas essa fase inicial de prática e não terá continuidade dentro desse formato.
 
-Esse novo modelo está sendo desenvolvido em um repositório separado. Este repositório permanece como registro dessa fase inicial, mas não receberá novas atualizações.
+Novos estudos estão sendo conduzidos em outros repositórios, com uma abordagem mais próxima de cenários reais de desenvolvimento.
